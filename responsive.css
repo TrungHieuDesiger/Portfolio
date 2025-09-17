@@ -1,0 +1,77 @@
+/* Responsive CSS */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .intro-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .intro .avatar {
+    margin-top: 20px;
+  }
+
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+  .profile-info {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .service-list {
+    justify-content: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  /* Header */
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header .menu {
+    margin-top: 10px;
+  }
+  .header .menu a {
+    margin: 0 10px;
+  }
+
+  /* Intro */
+  .intro {
+    padding: 30px 5%;
+  }
+  .intro .info h1 {
+    font-size: 22px;
+  }
+  .intro .avatar img {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* Profile */
+  .profile {
+    padding: 30px 5%;
+  }
+  .profile-image img {
+    width: 150px;
+  }
+
+  /* Services */
+  .services {
+    padding: 30px 5%;
+  }
+  .service-box {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* Contact */
+  .contact {
+    padding: 30px 5%;
+  }
+  .contact form {
+    width: 100%;
+  }
+}

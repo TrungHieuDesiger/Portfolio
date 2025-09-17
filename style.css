@@ -1,0 +1,125 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  background: orange;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  padding: 15px 10%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+}
+.header .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+.header .menu {
+  margin-left: auto;
+}
+
+.header .menu a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Giới thiệu */
+.intro {
+  background: #ffb366;
+  padding: 50px 10%;
+}
+.intro-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro .info h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.intro .avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+/* Thông tin cá nhân */
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #80e5ff;
+  padding: 50px 10%;
+}
+.profile-image img {
+  width: 200px;
+  border-radius: 10px;
+}
+.profile-info {
+  max-width: 60%;
+}
+
+/* Dịch vụ */
+.services {
+  background: #ffb3b3;
+  padding: 50px 10%;
+  text-align: center;
+}
+.services h2 {
+  margin-bottom: 30px;
+}
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.service-box {
+  background: white;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact */
+.contact {
+  background: #4caf50;
+  padding: 50px 10%;
+  text-align: center;
+  color: white;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+.contact input,
+.contact textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.contact button {
+  background: white;
+  color: #4caf50;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
